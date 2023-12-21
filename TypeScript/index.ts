@@ -1,4 +1,4 @@
-import { oef4, oef4uitbreiding } from "./oef4"
+import { oef4, oef4GroteUitbreiding, oef4uitbreiding } from "./oef4"
 import { FavoriteColor, Person, PersonExtended, } from "./dto/person.dto"
 
 const main = () => {
@@ -19,8 +19,10 @@ const main = () => {
             postalCode: 3470
         }
     }
-    oef4(Person)
-    oef4uitbreiding(extenedPerson)
+    //oef4(Person)
+    //oef4uitbreiding(extenedPerson)
+    const test = oef4uitbreiding(extenedPerson)
+    console.log(test)
 }
 
 main()
