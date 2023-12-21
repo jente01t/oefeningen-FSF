@@ -1,6 +1,4 @@
-const oef2 = (naam: any) => {
+var oef2 = function (naam) {
     console.log(naam);
-}
-
+};
 console.log(typeof oef2);
-
