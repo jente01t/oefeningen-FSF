@@ -1,4 +1,4 @@
-import dotenv from 'dotenv';
+require('dotenv').config({path: '../.env'});
 
 const student = {
     voornaam: process.env.VOORNAAM,
@@ -6,3 +6,5 @@ const student = {
     studentnummer: process.env.STUDENTNUMMER,
     adres: process.env.ADRES,
   };
+
+console.log(student);
