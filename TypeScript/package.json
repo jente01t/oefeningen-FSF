@@ -5,12 +5,12 @@
   "devDependencies": {
     "typescript": "^5.3.3"
   },
-  "name": "typescript",
+  "name": "indexoef5.ts",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "indexoef5.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node index.ts"
+    "start": "ts-node indexoef5.ts"
   },
   "author": "",
   "license": "ISC",
