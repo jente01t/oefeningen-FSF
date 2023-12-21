@@ -7,6 +7,14 @@ export interface Person {
 
 type PersonExtended = Person & {
     favoriteColor: FavoriteColor;
+    adress: Address;
+}
+
+type Address = {
+    street: string;
+    number: number;
+    city: string;
+    postalCode: number;
 }
 
 enum FavoriteColor {
@@ -15,4 +23,4 @@ enum FavoriteColor {
     Blue = "blue"
 }
 
-export {Person}
+export {PersonExtended, FavoriteColor}
